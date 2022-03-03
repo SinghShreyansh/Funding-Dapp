@@ -1,0 +1,98 @@
+.App {
+  background-color: #04132b;
+  height: 100vh;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  padding-top: 10vh;
+  padding-bottom: 5px;
+  font-size: 32px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 10vh;
+  font-weight: 600;
+  background-color: rgb(211, 123, 9);
+  border-radius: 10px;
+}
+
+.account{
+  align-self: flex-start;
+}
+
+.AccountBalance{
+  align-self: flex-start;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metaMask {
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #5bd1e4;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.metaImg{
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.metaMask:hover{
+  background-color: #1db3ca;
+}
+
+.Transfer {
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #a03610;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Transfer:hover{
+  background-color: #7c2404;
+}
+
+.Withdraw {
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #13D457;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Withdraw:hover{
+  background-color: #0b923a;
+}
